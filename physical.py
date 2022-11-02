@@ -14,7 +14,7 @@ def getPort():
         print(strPort) # print(strPort)
         if "FT232R USB UART" in strPort:
             splitPort = strPort.split(" ")
-            print("port:",strPort)
+            print("Port:",strPort)
             comPort = splitPort[0]
     return comPort
 
